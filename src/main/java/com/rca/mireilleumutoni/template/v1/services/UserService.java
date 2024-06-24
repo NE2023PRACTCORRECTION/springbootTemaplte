@@ -51,17 +51,9 @@ public interface UserService {
 
     Page<User> getUsersByRole(UUID role, Pageable pageable);
 
-
-
     List<User> getUsersByAccountStatus(EUserStatus userStatus);
 
     Page<User> getUsersByAccountStatus(EUserStatus userStatus, Pageable pageable);
-
-
-
-
-
-
 
 
 
